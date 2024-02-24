@@ -1,28 +1,24 @@
-**NFT Project Overview: Introducing borrowAuthNFT Feature**
+# NFT Project with Enhanced borrowAuthNFT Feature
 
-This project enhances the existing NFT contract by introducing the borrowAuthNFT feature, which is now available to the public. This new functionality allows users to easily access and retrieve metadata associated with our NFTs.
+This project enhances an existing NFT contract by introducing the `borrowAuthNFT` feature, which is now publicly available. This feature allows users to access and retrieve metadata from our NFTs easily.
 
-**Prerequisites:**
-- Familiarity with Flow Playground
-- Understanding of Cadence Language
+## Prerequisites
 
-**How to Interact with the NFT Project:**
+- Flow Playground
+- Knowledge of Cadence language
 
-To utilize the NFT project within the Flow Playground, please follow these instructions:
+## Usage Instructions
 
-1. **Develop Contracts and Scripts:**
-   - Create your contracts, transactions, and script files directly within the Flow Playground environment.
+To interact with this NFT project using the Flow Playground, please follow these instructions:
 
-2. **Create NFT Collection:**
-   - Execute the `CreateCollection` transaction to set up your NFT collection.
+1. **Develop Contract and Scripts**: Start by developing your contracts, transactions, and script files within the Flow Playground.
 
-3. **Mint a New NFT:**
-   - Perform the `MintNFT` transaction to mint a new NFT.
+2. **Create an NFT Collection**: Execute the `CreateCollection` transaction to set up your NFT collection within the platform.
 
-4. **Obtain NFT ID:**
-   - Use the `GetID` script to retrieve the ID of your NFT, necessary for the main script.
+3. **Mint NFT**: Use the `MintNFT` transaction to mint a new NFT to your collection.
 
-5. **Extract Metadata:**
-   - Run the `MetaData` script to extract metadata from the NFT you created.
+4. **Obtain NFT ID**: Run the `GetID` script to fetch the ID of your newly minted NFT. This ID will be needed for subsequent steps.
 
-By following these steps, users can easily engage with the NFT project and leverage the borrowAuthNFT feature for straightforward access to public metadata.
+5. **Extract Metadata**: Finally, execute the `MetaData` script to retrieve metadata from the NFT using its ID.
+
+By following these steps, users can easily leverage the new `borrowAuthNFT` feature to access public metadata associated with our NFTs.
